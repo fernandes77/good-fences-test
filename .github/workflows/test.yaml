@@ -47,7 +47,7 @@ jobs:
 
       - name: Install Dependencies
         shell: bash
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Checkout
         uses: actions/checkout@v3
